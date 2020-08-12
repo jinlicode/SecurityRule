@@ -28,7 +28,7 @@ syslog.reconnect_interval: 300
 #拦截攻击后，状态码
 block.status_code: 302
 #拦截攻击后，跳转到这个URL
-block.redirect_url: "http://localhost/blocked/?request_id=%request_id%"
+block.redirect_url: "http://rasp.jinli.plus/?request_id=%request_id%"
 #拦截攻击后，若期望响应类型为JSON，则根据此模板显示内容
 block.content_json: '{"error":true, "reason": "Request blocked by OpenRASP", "request_id": "%request_id%"}'
 #拦截攻击后，若期望响应类型为XML，则根据此模板显示内容
